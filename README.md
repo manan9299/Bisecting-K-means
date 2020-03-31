@@ -22,7 +22,7 @@ Implementing Bisecting K-means clustering algorithm for text mining
 
 ### Dimensionality Reduction algorithm
 - Running bisecting K means on a dense matrix of 8580 rows and ~126000 features was using a lot of resources.
-- In order to reduce the number of features, I used Truncated Singular Value Decomposition (TSVD) in order to identify the - principal components from the matrix.
+- In order to reduce the number of features, I used Truncated Singular Value Decomposition (TSVD) in order to identify the principal components from the matrix.
 - I ran the TSVD for 100 to 500 components incrementing by 50 every time, and got the best evaluation score for 200 components.
 
 
