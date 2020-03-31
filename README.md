@@ -18,6 +18,8 @@ Implementing Bisecting K-means clustering algorithm for text mining
 - This score is defined as the ratio between the within-cluster dispersion and the between-cluster dispersion.
 - The plot for k = 3 to 21 is as follows:
 
+![](https://github.com/manan9299/Bisecting-K-means/blob/master/images/AvgDistanceToCentroid.png)
+
 ### Dimensionality Reduction algorithm
 - Running bisecting K means on a dense matrix of 8580 rows and ~126000 features was using a lot of resources.
 - In order to reduce the number of features, I used Truncated Singular Value Decomposition (TSVD) in order to identify the - principal components from the matrix.
